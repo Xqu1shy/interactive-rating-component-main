@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TYPO */
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+}
+
+.rate {
+    color: white;
+    font-size: 0.9rem;
+}
+
+button {
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.1em;
+    font-size: .9rem;
+}
+
+strong {
+    color: hsl(25, 97%, 53%);
+    font-size: 0.8rem;
+}
+
+.for-typo h1 {
+    color: white;
+    text-align: center;
+}
+
+.for-typo p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
+
+/* LAYOUT */
+
+/* first */
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 85%;
+    max-width: 375px;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+
+.icon {
+    background-color:hsl(216, 12%, 8%);
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, p {
+    margin-bottom: 1rem;
+}
+
+.vote {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate {
+    background-color:hsl(216, 12%, 8%);
+    width: 3.5em;
+    height: 3.5em;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.rate:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submit {
+    width: 100%;
+    padding: 0.7em 1em;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.image-align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.you-select {
+    background-color: hsl(216, 12%, 8%);
+    width: 55%;
+    margin: 0 auto;
+    padding: .5em 1em;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 1em;
+}
+
